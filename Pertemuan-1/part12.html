@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Atribut Form pada HTML</title>
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+	<p>Atribut Value</p>
+<form>
+	Nama Depan :<input type="text" value="Nilai awal yang akan ditampilkan"><br/>
+	Nama Belakang : <input type="text">
+</form>
+	<p>Atribut Readonly</p>
+<form>
+	Nama Depan :<input type="text" value="Value tidak bisa diubah" readonly><br/>
+	Nama Belakang : <input type="text">
+</form>
+	<p>Atribut Disabled</p>
+<form>
+	Nama Depan :<input type="text" value="Value tidak bisa diinput" disabled><br/>
+	Nama Belakang : <input type="text">
+</form>
+	<p>Atribut Size</p>
+<form>
+	Nama Depan :<input type="text" value="Mengatur lebar Kotak yang ada" size="50"><br/>
+	Nama Belakang : <input type="text">
+</form>
+	<p>Atribut MaxLength</p>
+<form>
+	Nama Depan :<input type="text" value="Value yang dimasukan dibatasi" maxlength="30"><br/>
+	Nama Belakang : <input type="text">
+</form>
+	<p>Atribut List</p>
+<form>
+	<input list="browser" name="internet">
+	<datalist id="browser">
+	<option value="chrome">
+	<option value="mozilla">
+	<option value="opera">
+	</datalist>
+</form>
+	<p>Atribut Min dan Max</p>
+<form>
+	<input type="date" name="day" max="1979-12-31">
+	<input type="date" name="day" min="2000-01-02">
+</form>
+	<p>Atribut PlaceHolder</p>
+<form>
+	<input type="text" name="nama" placeholder="Akan terlihat seperti ini">
+</form>
+ 
+</body>
+</html>
